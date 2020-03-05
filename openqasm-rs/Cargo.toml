@@ -1,0 +1,13 @@
+[package]
+name = "openqasm-rs"
+version = "0.1.0"
+authors = ["pandaman64 <kointosudesuyo@infoseek.jp>"]
+
+[lib]
+name = "openqasm"
+
+[dependencies]
+failure = "0.1"
+
+[dependencies.nom]
+version = "4.0"
